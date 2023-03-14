@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "878707154235",
+    "project_id": "jukshiotask",
+    "storage_bucket": "jukshiotask.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:878707154235:android:79849be8f8d031c2a8eb1e",
+        "android_client_info": {
+          "package_name": "com.ranjeet.jukshiotask"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "878707154235-sa746hq2qtab7sovk9n9699rb2lgf28v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEttzYj4hw7acWcXLf1IUJ-_GQ58QkzRo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "878707154235-sa746hq2qtab7sovk9n9699rb2lgf28v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

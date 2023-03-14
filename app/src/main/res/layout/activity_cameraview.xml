@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <androidx.camera.view.PreviewView
+            android:id="@+id/view_finder"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:id="@+id/tv_limitation_msg"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="54dp"
+            android:text="Maximum 2 pictures are allow to capture"
+            android:visibility="visible"
+            android:textColor="#F8F7F7"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/view_finder" />
+
+        <LinearLayout
+            android:id="@+id/ll_captured_images"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:visibility="visible"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/bt_capture"
+            app:layout_constraintEnd_toEndOf="@+id/bt_capture"
+            app:layout_constraintStart_toStartOf="@+id/bt_capture">
+
+
+            <ImageView
+                android:id="@+id/iv_capture_first_pic"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:padding="2dp"
+                android:scaleType="fitXY"
+                android:adjustViewBounds = "true"
+                android:background="@drawable/imageview_border"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/iv_capture_second_pic"
+                android:layout_width="100dp"
+                android:scaleType="fitXY"
+                android:padding="2dp"
+                android:adjustViewBounds = "true"
+                android:background="@drawable/imageview_border"
+                android:layout_height="100dp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+
+
+        <ImageView
+            android:id="@+id/bt_capture"
+            android:layout_width="60dp"
+            android:padding="12dp"
+            android:layout_height="60dp"
+            android:background="@drawable/circular_button"
+            android:layout_marginBottom="32dp"
+            android:src="@drawable/baseline_photo_camera_24"
+            app:layout_constraintBottom_toBottomOf="@+id/view_finder"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
