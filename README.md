@@ -6,3 +6,13 @@
 - Data Layer
 - Domain Layer
 - Presentation Layer
+
+# Design Pattern
+- Hilt (Dagger2) Dependency injections has been used for dependency and module.
+
+# Libraries Used 
+- Firebase
+- CameraX
+- Hilt
+- MaterialComponent
+- Coil (3rd Party - For Image Loading)
