@@ -1,6 +1,6 @@
 # Jukshio-task
 
-Please find apk : [Click here](apk/apk-debug.apk)
+Please find apk : [Click here](apk/app-debug.apk)
 
 # Project Architecture
 
