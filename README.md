@@ -1,16 +1,19 @@
 # Jukshio-task
 
+Please find apk : [Click here](apk/apk-debug.apk)
+
 # Project Architecture
+
 ## Uncle's Bob Clean Architecture has been followed.
 
 - Data Layer
 - Domain Layer
 - Presentation Layer
 
-# Design Pattern
+## Design Pattern
 - Hilt (Dagger2) Dependency injections has been used for dependency and module.
 
-# Libraries Used 
+## Libraries Used 
 - Firebase
 - CameraX
 - Hilt
